@@ -1,0 +1,30 @@
+concept_god
+        => nrel_main_idtf: 
+            [Бог] (* <-lang_ru;; *);
+		  [God] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание (Бог)] (* <-lang_ru;; *);
+				[Description (God)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/concept_god_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_god_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бог)](*<-lang_ru;;*);
+		[Pic. (God)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_god.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+
+				

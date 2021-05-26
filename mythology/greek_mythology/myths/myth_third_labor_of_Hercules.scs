@@ -1,0 +1,53 @@
+myth_third_labor_of_Hercules
+		<-concept_myth;
+		<-concept_labors_of_Hercules;
+        => nrel_main_idtf: 
+            [Третий подвиг Геракла] (* <-lang_ru;; *);
+		  [The third labor of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Третий подвиг Геракла)] (* <-lang_ru;; *);
+				[Description of myth(The third labor of Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_third_labor_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_third_labor_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геракл сражается с Керинейской ланью)](*<-lang_ru;;*);
+		[Pic. (Hercules fighting the Kerinean hind)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hercules_fighting_kerinean_hind.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);         
+=>nrel_place_of_events:
+	Greece;	
+=>nrel_character:
+	character_Hercules;
+	character_Eurystheus;
+	character_Kerinean_hind;
+	character_Artemis;
+	
+=>nrel_text:
+	text_3_labor_of_Hercules;;
+	
+text_3_labor_of_Hercules	
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_third_labor_of_Hercules_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_third_labor_of_Hercules_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Третий подвиг Геракла)] (* <-lang_ru;; *);
+				[Text of myth (Third labor of Hercules)](*<-lang_en;;*);;      			

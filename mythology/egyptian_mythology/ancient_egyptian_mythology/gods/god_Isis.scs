@@ -1,0 +1,56 @@
+god_Isis
+	<-concept_god;
+        => nrel_main_idtf: 
+            [Богиня Исида] (* <-lang_ru;; *);
+		  [God Isis] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Богиня Исида)] (* <-lang_ru;; *);
+				[Description of character(God Isis)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/god_Isis_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/god_Isis_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+                    
+=>nrel_child:
+	god_Gor;
+	
+=>nrel_spouse:
+	god_Osiris;
+
+=>nrel_brother:
+	god_Osiris;			
+	                    
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Богиня Исида)](*<-lang_ru;;*);
+		[Pic. (God Isis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/god_Isis.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Утв.(о Богине Исиде)](*<- lang_ru;; *);
+		[Stat.(about God Isis)](*<- lang_en;; *);;
+	<-statement;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Поклонение Исиде было распространено во всём греко-римском мире и продолжалось до запрета язычества в христианскую эру](*<- lang_ru;; *);
+			[The worship of Isis was widespread throughout the Greco-Roman world and continued until the prohibition of paganism in the Christian era.](*<- lang_en;; *);;
+		*);;
+	*);;
+
+				

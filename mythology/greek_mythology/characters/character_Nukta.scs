@@ -1,0 +1,38 @@
+character_Nukta
+        => nrel_main_idtf: 
+            [Нюкта] (* <-lang_ru;; *);
+		  [Nyx] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Нюкта)] (* <-lang_ru;; *);
+				[Description of character(Nyx)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Nukta_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Nukta_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Нюкта)](*<-lang_ru;;*);
+		[Pic. (Nyx)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Nukta.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Chaos;
+		
+=>nrel_mother: character_Caligo;	
+		
+=>nrel_place_of_birth: Tartarus;
+		
+=>nrel_child: character_Aether;;
+	
+
+				

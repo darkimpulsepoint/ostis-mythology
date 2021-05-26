@@ -1,0 +1,54 @@
+myth_childhood_of_Gor
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Детство Гора] (* <-lang_ru;; *);
+	    [Childhood of Gor] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Детство Гора)] (* <-lang_ru;; *);
+				[Description of myth (Childhood of Gor)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_childhood_of_Gor_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_childhood_of_Gor_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Детство Гора)](*<-lang_ru;;*);
+		[Pic. (Childhood od Gor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/childhood_gor.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);      
+            
+=>nrel_place_of_events:
+	Egypt;	                
+
+=>nrel_character:
+	Tot;
+	god_Isis;
+	god_Ra;
+	god_Gor;
+	
+=>nrel_text:
+	text_myth_childhood_of_Gor;;
+	
+text_myth_childhood_of_Gor
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_childhood_of_Gor_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_childhood_of_Gor_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Детство Гора)] (* <-lang_ru;; *);
+				[Text of myth (Childhood of Gor)](*<-lang_en;;*);;      			

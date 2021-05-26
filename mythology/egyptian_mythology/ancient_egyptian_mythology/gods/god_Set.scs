@@ -1,0 +1,60 @@
+god_Set
+	<-concept_god;
+        => nrel_main_idtf: 
+            [Бог Сет] (* <-lang_ru;; *);
+		  [God Set] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Бог Сет)] (* <-lang_ru;; *);
+				[Description of character(God Set)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/god_Set_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/god_Set_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+                    
+=>nrel_child:
+	god_Gor;
+	
+=>nrel_spouse:
+	god_Osiris;
+
+=>nrel_brother:
+	god_Osiris;			
+	                    
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бог Сет)](*<-lang_ru;;*);
+		[Pic. (God Set)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/god_Set.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+	<=nrel_using_constants:
+	{
+		god_Set
+	};;
+            *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Утв.(о Боге Сете)](*<- lang_ru;; *);
+		[Stat.(about God Set)](*<- lang_en;; *);;
+	<-statement;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Планета Меркурий считалась небесным образом Сета](*<- lang_ru;; *);
+			[The planet Mercury was considered the celestial image of Set](*<- lang_en;; *);;
+		*);;
+	*);;
+
+				

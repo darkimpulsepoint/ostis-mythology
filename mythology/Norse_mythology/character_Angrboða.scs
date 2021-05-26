@@ -1,0 +1,31 @@
+character_Angrboda
+        => nrel_main_idtf: 
+            [Ангрбода] (* <-lang_ru;; *);
+		  [Angrboða] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Ангрбода)] (* <-lang_ru;; *);
+				[Description of character(Angrboða)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Angrboða_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Angrboða_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангрбода)](*<-lang_ru;;*);
+		[Pic. (Angrboða)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Angrboða.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+		
+=>nrel_child: character_Jormungandr;
+		character_Fenrir;
+		character_Hel;;

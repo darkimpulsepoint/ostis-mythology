@@ -1,0 +1,27 @@
+War_of_the_Yellow_Emperor_with_Chiyou
+<-concept_myth;
+        => nrel_main_idtf: 
+            [Война Желтого Императора с Чи-ю] (* <-lang_ru;; *);
+		  [War of the Yellow Emperor with Chiyou] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа(Война Желтого Императора с Чи-ю)] (* <-lang_ru;; *);
+				[Description of myth(YWar of the Yellow Emperor with Chiyou)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/War_of_the_Yellow_Emperor_with_Chiyou_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/War_of_the_Yellow_Emperor_with_Chiyou_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+            
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/War_of_the_Yellow_Emperor_with_Chiyou_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/War_of_the_Yellow_Emperor_with_Chiyou_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);             
+
+=>nrel_character:
+	character_Yellow_Emperor;
+	character_Chiyou;;

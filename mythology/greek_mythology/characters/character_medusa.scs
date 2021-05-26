@@ -1,0 +1,34 @@
+character_Medusa
+        => nrel_main_idtf: 
+            [Медуза Горгона] (* <-lang_ru;; *);
+		  [Medusa] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Медуза Горгона)] (* <-lang_ru;; *);
+				[Description of character(Medusa)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_medusa_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_medusa_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Медуза Горгона)](*<-lang_ru;;*);
+		[Pic. (Medusa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_medusa.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Ceto;
+		
+=>nrel_mother: character_Phorcys;;
+	
+
+				

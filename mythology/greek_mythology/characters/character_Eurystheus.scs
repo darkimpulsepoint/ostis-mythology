@@ -1,0 +1,42 @@
+character_Eurystheus
+        => nrel_main_idtf: 
+            [Эврисфей] (* <-lang_ru;; *);
+		  [Eurystheus] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Эврисфей)] (* <-lang_ru;; *);
+				[Description of character(Eurystheus)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Eurystheus_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Eurystheus_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эврисфей)](*<-lang_ru;;*);
+		[Pic. (Eurystheus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Eurystheus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Sthenelus;
+		
+=>nrel_mother: character_Nikippa;
+		
+=>nrel_grandfather: character_Perseus;	
+		
+=>nrel_place_of_birth: iseland_Krit;
+		
+=>nrel_child: character_Hercules;
+
+=>nrel_attribute: bird_eagle;;
+	
+
+				

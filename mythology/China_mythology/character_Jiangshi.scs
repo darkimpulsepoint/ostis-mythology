@@ -1,0 +1,30 @@
+character_Jiangshi
+        => nrel_main_idtf: 
+            [Цзянши] (* <-lang_ru;; *);
+		  [Jiangshi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Цзянши)] (* <-lang_ru;; *);
+				[Description of character(Jiangshi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Jiangshi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Jiangshi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Цзянши)](*<-lang_ru;;*);
+		[Pic. (Jiangshi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Jiangshi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+	
+
+				

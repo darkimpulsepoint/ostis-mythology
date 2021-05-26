@@ -1,0 +1,54 @@
+myth_how_gods_played_checkers
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Как Боги играли в шашки] (* <-lang_ru;; *);
+	    [How Gods played checkers] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Как Боги играли в шашки)] (* <-lang_ru;; *);
+				[Description of myth (How Gods played checkers)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_how_gods_played_checkers_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_how_gods_played_checkers_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Как Боги играли в шашки)](*<-lang_ru;;*);
+		[Pic. (How Gods played checkers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/myth_how_gods_played_checkers.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);      
+            
+=>nrel_place_of_events:
+	Egypt;	                
+
+=>nrel_character:
+	Tot;
+	god_Isis;
+	god_Ra;
+	god_Nut;
+	
+=>nrel_text:
+	text_myth_how_gods_played_checkers;;
+	
+text_myth_how_gods_played_checkers
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_how_gods_played_checkers_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_how_gods_played_checkers_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Как Боги играли в шашки)] (* <-lang_ru;; *);
+				[Text of myth (How Gods played checkers)](*<-lang_en;;*);;      			

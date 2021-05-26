@@ -1,0 +1,47 @@
+vedas_Yajurveda
+=> nrel_main_idtf: 
+[Яджурведа] 
+(* <- lang_ru;; *); 
+[Yajurveda] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Яджурведа)](*<-lang_ru;;*);
+[Description (Yajurveda)](*<-lang_en;;*);; 
+*);
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/Yajurveda_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/Yajurveda_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*           
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Яджурведа)](*<-lang_ru;;*);
+		[Pic. (Yajurveda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/yajurveda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+<-rrel_key_sc_element:...
+(*
+<-statement;;
+=> nrel_main_idtf:
+	 [Утверждение о Яджурведе] (* <- lang_ru;; *);
+	 [The statement about Yajurveda] (* <- lang_en;; *);;
+<= nrel_sc_text_translation:...
+			(*
+			-> rrel_example: 
+				[В «Яджурведе» содержатся первые известные упоминания чисел до триллиона («парардха»). В ней также обсуждается концепция числовой бесконечности](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The Yajurveda contains the first known mentions of numbers up to a trillion (parardha). It also discusses the concept of numeric infinity](*<- lang_en;;*);;
+			*);;
+		*);;            

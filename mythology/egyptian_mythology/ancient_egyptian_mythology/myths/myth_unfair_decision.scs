@@ -1,0 +1,55 @@
+myth_unfair_decision
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Несправедливое решение] (* <-lang_ru;; *);
+	    [Unfair decision] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Несправедливое решение)] (* <-lang_ru;; *);
+				[Description of myth (Unfair decision)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_unfair_decision_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_unfair_decision_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Несправедливое решение)](*<-lang_ru;;*);
+		[Pic. (Unfair decision)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/unfair_decision.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *); 
+            
+=>nrel_place_of_events:
+	Egypt;	                     
+
+=>nrel_character:
+	Tot;
+	god_Shu;
+	god_Ra;
+	god_Gor;
+	god_Set;
+	
+=>nrel_text:
+	text_myth_unfair_decision;;
+	
+text_myth_unfair_decision
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_unfair_decision_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_unfair_decision_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Несправедливое решение)] (* <-lang_ru;; *);
+				[Text of myth (Unfair decision)](*<-lang_en;;*);;      			

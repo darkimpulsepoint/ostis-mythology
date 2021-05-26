@@ -1,0 +1,53 @@
+myth_sets_conspiracy
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Заговор Сета] (* <-lang_ru;; *);
+	    [Set's conspiracy] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Заговор Сета)] (* <-lang_ru;; *);
+				[Description of myth (Set's conspiracy)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_sets_conspiracy_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_sets_conspiracy_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Заговор Сета)](*<-lang_ru;;*);
+		[Pic. (Set's conspiracy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/sets_conspiracy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);  
+            
+=>nrel_place_of_events:
+	Egypt;	                    
+
+=>nrel_character:
+	god_Set;
+	god_Isis;
+	god_Osiris;
+	
+=>nrel_text:
+	text_myth_sets_conspiracy;;
+	
+text_myth_sets_conspiracy
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_sets_conspiracy_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_sets_conspiracy_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Заговор Сета)] (* <-lang_ru;; *);
+				[Text of myth (Set's conspiracy)](*<-lang_en;;*);;      			

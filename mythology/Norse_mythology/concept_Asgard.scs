@@ -1,0 +1,33 @@
+concept_Asgard
+<-sc_node_not_relation;
+=> nrel_main_idtf: 
+[Асгард] 
+(* <- lang_ru;; *);
+[Asgard] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Асгард)](*<-lang_ru;;*);
+[Description (Asgard)](*<-lang_en;;*);; 
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Asgard_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Asgard_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Асгард)](*<-lang_ru;;*);
+		[Pic. (Asgard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Asgard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

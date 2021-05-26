@@ -1,0 +1,55 @@
+myth_second_feat_of_Hercules
+		<-concept_myth;
+		<-concept_labors_of_Hercules;
+        => nrel_main_idtf: 
+            [Второй подвиг Геракла] (* <-lang_ru;; *);
+		  [The second feat of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа(Второй подвиг Геракла)] (* <-lang_ru;; *);
+				[Description of myth(The second feat of Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_second_feat_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/myth_second_feat_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геракл сражается с Лернейской гидрой)](*<-lang_ru;;*);
+		[Pic. (Hercules fighting the Lernean hydra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hercules_fighting_lernean_hydra.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);         
+
+=>nrel_place_of_events:
+	Greece;	
+=>nrel_character:
+	character_Hercules;
+	character_Eurystheus;
+	character_lernean_hydra;
+	character_Iolaus;
+	
+=>nrel_text:
+	text_2_labor_of_Hercules;;
+	
+text_2_labor_of_Hercules	
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_second_feat_of_Hercules_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_second_feat_of_Hercules_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Второй подвиг Геракла)] (* <-lang_ru;; *);
+				[Text of myth (Second labor of Hercules)](*<-lang_en;;*);;      			
+				

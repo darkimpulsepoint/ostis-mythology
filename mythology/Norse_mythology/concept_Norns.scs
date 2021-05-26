@@ -1,0 +1,33 @@
+concept_Norns
+<-sc_node_not_relation;
+=> nrel_main_idtf: 
+[Норны] 
+(* <- lang_ru;; *);
+[Norns] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Норны)](*<-lang_ru;;*);
+[Description (Norns)](*<-lang_en;;*);; 
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Norns_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Norns_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Норны)](*<-lang_ru;;*);
+		[Pic. (Norns)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Norns.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

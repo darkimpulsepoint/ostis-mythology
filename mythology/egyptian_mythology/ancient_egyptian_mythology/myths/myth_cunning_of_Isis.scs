@@ -1,0 +1,56 @@
+myth_cunning_of_Isis
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Хитрость Исиды] (* <-lang_ru;; *);
+	    [Isis's cunning] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Хитрость Исиды)] (* <-lang_ru;; *);
+				[Description of myth (Isis's cunning)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_cunning_of_Isis_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_cunning_of_Isis_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+                    
+=>nrel_place_of_events:
+	Egypt;	
+	                    
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хитрость Исиды)](*<-lang_ru;;*);
+		[Pic. (Isis's cunning)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/myth_cunning_of_Isis_1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);          
+
+=>nrel_character:
+	Anti;
+	god_Isis;
+	god_Ra;
+	god_Gor;
+	god_Set;
+	
+=>nrel_text:
+	text_myth_cunning_of_Isis;;
+	
+text_myth_cunning_of_Isis
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_cunning_of_Isis_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_cunning_of_Isis_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Хитрость Исиды)] (* <-lang_ru;; *);
+				[Text of myth (Isis's cunning)](*<-lang_en;;*);;      			

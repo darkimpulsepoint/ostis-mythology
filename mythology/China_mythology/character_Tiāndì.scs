@@ -1,0 +1,35 @@
+character_Tiandi
+        => nrel_main_idtf: 
+            [Небесный император] (* <-lang_ru;; *);
+		  [Tiāndì] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Небесный император)] (* <-lang_ru;; *);
+				[Description of character(Tiāndì)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Tiāndì_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Tiāndì_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Небесный император)](*<-lang_ru;;*);
+		[Pic. (Tiāndì)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Tiandì.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+
+=>nrel_granddaughter: character_Zhinu;
+		
+=>nrel_related_legends: The_Cowherd_and_the_Weaver_Girl;;
+	
+
+				

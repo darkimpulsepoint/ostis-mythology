@@ -1,0 +1,35 @@
+concept_labors_of_Hercules
+		<-sc_node_not_relation;
+		<-subject_domain_of_greek_mythology_olympic_period;
+        => nrel_main_idtf: 
+            [Подвиги Геракла] (* <-lang_ru;; *);
+	    [Labors of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+            
+                => nrel_main_idtf:
+                  	[Описание (Подвиги Геракла)] (* <-lang_ru;; *);
+			[Description (Labor of Hercules)](*<-lang_en;;*);;
+			<=nrel_using_constants:
+	{
+		concept_myth
+	};;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_labors_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/concept_labors_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Подвиги Геракла)](*<-lang_ru;;*);
+		[Pic. (Labors of Hercules)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_labors_of_Hercules.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+

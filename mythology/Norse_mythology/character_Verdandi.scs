@@ -1,0 +1,27 @@
+character_Verdandi
+        => nrel_main_idtf: 
+            [Верданди] (* <-lang_ru;; *);
+		  [Verdandi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Верданди)] (* <-lang_ru;; *);
+				[Description of character(Verdandi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Verdandi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Verdandi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Верданди)](*<-lang_ru;;*);
+		[Pic. (Verdandi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Verdandi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

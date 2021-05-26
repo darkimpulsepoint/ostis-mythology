@@ -1,0 +1,41 @@
+character_Zeus
+	<-concept_god;
+        => nrel_main_idtf: 
+            [Зевс] (* <-lang_ru;; *);
+		  [Zeus] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Зевс)] (* <-lang_ru;; *);
+				[Description of character(Zeus)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Zeus_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Zeus_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Зевс)](*<-lang_ru;;*);
+		[Pic. (Zeus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Zeus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Kronos;
+		
+=>nrel_mother: character_Rhea;
+		
+=>nrel_place_of_birth: iseland_Krit;	
+		
+=>nrel_child: character_Hercules;		
+
+=>nrel_attribute: bird_eagle;;
+	
+
+				

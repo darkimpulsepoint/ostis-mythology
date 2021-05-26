@@ -1,0 +1,37 @@
+concept_eschatological_myth
+<-concept_myth;
+<-sc_node_not_relation;;
+
+concept_eschatological_myth
+=>nrel_main_idtf:
+	[Эсхатологический миф](*<-lang_ru;;*);
+	[Eschatological myth](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Эсхатологический миф)](*<-lang_ru;;*);
+		[Def. (Eschatological myth)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+		concept_myth
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_eschatological_myth_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_eschatological_myth_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эсхатологический миф)](*<-lang_ru;;*);
+		[Pic. (Eschatological myth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_eschatological_myth.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

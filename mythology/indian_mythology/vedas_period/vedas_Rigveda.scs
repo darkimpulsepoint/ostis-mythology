@@ -1,0 +1,47 @@
+vedas_Rigveda
+=> nrel_main_idtf: 
+[Ригведа] 
+(* <- lang_ru;; *); 
+[Rigveda] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+	[Описание (Ригведа)](*<-lang_ru;;*);
+	[Description (Rigveda)](*<-lang_en;;*);; 
+	*);
+
+<=nrel_sc_text_translation:... 
+	(* 
+	->rrel_example: "file://HTML/Rigveda_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+	->rrel_example: "file://HTML/Rigveda_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);
+
+<- rrel_key_sc_element:...
+	(*           
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ригведа)](*<-lang_ru;;*);
+		[Pic. (Rigveda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/rigveda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+<-rrel_key_sc_element:...
+(*
+<-statement;;
+=> nrel_main_idtf:
+	 [Утверждение о составе слова "Ригведа"] (* <- lang_ru;; *);
+	 [The statement about the word "Rigveda"] (* <- lang_en;; *);;
+<= nrel_sc_text_translation:...
+			(*
+			-> rrel_example: 
+				[Слово ригведа — составное (татпуруша), состоит из двух санскритских корней: рич (санскр. ऋच्, IAST: ṛc, «хвала, гимн, стихи») и веда (वेद, IAST: veda, «знание»). ](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The word rigveda is a compound word (tatpurusha) and consists of two Sanskrit roots: rich (Skt. ऋच्, IAST: ṛc, “praise, hymn, verses”) and Veda (वेद, IAST: veda, “knowledge”).](*<- lang_en;;*);;
+			*);;
+			*);;            

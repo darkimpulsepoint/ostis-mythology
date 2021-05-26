@@ -1,0 +1,53 @@
+myth_tenth_labor_of_Hercules
+		<-concept_myth;
+		<-concept_labors_of_Hercules;
+        => nrel_main_idtf: 
+            [Десятый подвиг Геракла] (* <-lang_ru;; *);
+	    [The tenth labor of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Десятый подвиг Геракла)] (* <-lang_ru;; *);
+				[Description of myth(The tenth labor of Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_tenth_labor_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_tenth_labor_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стадо Гериона)](*<-lang_ru;;*);
+		[Pic. (Geryon's herd)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/herd_geryon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);           
+=>nrel_place_of_events:
+	Greece;	
+=>nrel_character:
+	character_Hercules;
+	character_Eurystheus;
+	Echidna;
+	Geryon;
+	
+=>nrel_text:
+	text_10_labor_of_Hercules;;
+	
+text_10_labor_of_Hercules	
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_tenth_labor_of_Hercules_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_tenth_labor_of_Hercules_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Десятый подвиг Геракла)] (* <-lang_ru;; *);
+				[Text of myth (Tenth labor of Hercules)](*<-lang_en;;*);;      			

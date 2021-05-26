@@ -1,0 +1,36 @@
+character_Hercules
+        => nrel_main_idtf: 
+            [Геракл] (* <-lang_ru;; *);
+		  [Hercules] (* <-lang_en;; *);
+		  
+		  	  
+<- rrel_key_sc_element:...
+	(*
+		<-definition;;
+    	=> nrel_main_idtf:
+                [Описание персонажа(Геракл)] (* <-lang_ru;; *);
+				[Description of character(Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+*);
+         
+<- rrel_key_sc_element:...
+	(*           
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геракл)](*<-lang_ru;;*);
+		[Pic. (Hercules)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Hercules.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+	=>nrel_father: character_Zeus;
+		
+	=>nrel_mother: character_Alkmena;
+		
+	=>nrel_place_of_birth: city_Thebes;;	

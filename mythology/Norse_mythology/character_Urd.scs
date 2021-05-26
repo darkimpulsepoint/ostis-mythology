@@ -1,0 +1,27 @@
+character_Urd
+        => nrel_main_idtf: 
+            [Урд] (* <-lang_ru;; *);
+		  [Urd] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Урд)] (* <-lang_ru;; *);
+				[Description of character(Urd)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Urd_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Urd_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Урд)](*<-lang_ru;;*);
+		[Pic. (Urd)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Urd.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

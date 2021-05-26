@@ -1,0 +1,33 @@
+character_Emperor_Shun
+        => nrel_main_idtf: 
+            [Император Шунь] (* <-lang_ru;; *);
+		  [Emperor Shun] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Император Шунь)] (* <-lang_ru;; *);
+				[Description of character(Emperor Shun)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Emperor_Shun_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Emperor_Shun_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Император Шунь)](*<-lang_ru;;*);
+		[Pic. (Emperor Shun)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Emperor_Shun.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_predecessor: character_Emperor_Yao;
+
+=>nrel_father: charcter_Gusou;
+		
+=>nrel_mother: character_Wodeng;;

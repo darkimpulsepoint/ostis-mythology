@@ -1,0 +1,50 @@
+god_Osiris
+	<-concept_god;
+        => nrel_main_idtf: 
+            [Бог Осирис] (* <-lang_ru;; *);
+		  [God Osiris] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Бог Осирис)] (* <-lang_ru;; *);
+				[Description of character(God Osiris)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/god_Osiris_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/god_Osiris_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+                    
+=>nrel_child:
+	god_Gor;
+	                    
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бог Осирис)](*<-lang_ru;;*);
+		[Pic. (God Osiris)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/god_Osiris.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Утв.(о Боге Осилисе)](*<- lang_ru;; *);
+		[Stat.(about God Osilis)](*<- lang_en;; *);;
+	<-statement;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Осирис – один из самых почитаемых египетских богов](*<- lang_ru;; *);
+			[Osiris is one of the most revered Egyptian gods](*<- lang_en;; *);;
+		*);;
+	*);;
+
+				

@@ -1,0 +1,27 @@
+character_Chiyou
+        => nrel_main_idtf: 
+            [Чи-ю] (* <-lang_ru;; *);
+		  [Chiyou] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Чи-ю)] (* <-lang_ru;; *);
+				[Description of character(Chiyou)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Chiyou_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Chiyou_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чи-ю)](*<-lang_ru;;*);
+		[Pic. (Chiyou)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Chiyou.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

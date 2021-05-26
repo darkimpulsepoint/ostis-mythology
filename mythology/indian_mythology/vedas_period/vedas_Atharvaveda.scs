@@ -1,0 +1,48 @@
+vedas_Atharhaveda
+=> nrel_main_idtf: 
+[Атхарваведа] 
+(* <- lang_ru;; *); 
+[Atharvaveda] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Атхарваведа)](*<-lang_ru;;*);
+		[Description (Atharvaveda)](*<-lang_en;;*);; 
+		*);
+
+<=nrel_sc_text_translation:...
+	(* 
+		->rrel_example: "file://HTML/Atharvaveda_def_ru.html"(*<-			lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://HTML/Atharvaveda_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);
+
+<- rrel_key_sc_element:...
+	(*           
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Атхархаведа)](*<-lang_ru;;*);
+		[Pic. (Atharhaveda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/atharhaveda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+<-rrel_key_sc_element:...
+(*
+<-statement;;
+=> nrel_main_idtf:
+	 [Утверждение о Атхарваведе] (* <- lang_ru;; *);
+	 [The statement about Atharaveda] (* <- lang_en;; *);;
+<= nrel_sc_text_translation:...
+			(*
+			-> rrel_example: 
+				[Атхарваведа» — первый индийский текст, связанный с медициной.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Atharvaveda ”is the first Indian text related to medicine.](*<- lang_en;;*);;
+			*);;
+		*);;
+            

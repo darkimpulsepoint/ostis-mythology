@@ -1,0 +1,34 @@
+character_nemean_lion
+        => nrel_main_idtf: 
+            [Немейский лев] (* <-lang_ru;; *);
+		  [Nemean lion] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Немейский лев)] (* <-lang_ru;; *);
+				[Description of character(Nemean_lion)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_nemean_lion_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_nemean_lion_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Немейский лев)](*<-lang_ru;;*);
+		[Pic. (Nemean lion)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_nemean_lion.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Orthus;
+		
+=>nrel_mother: character_Echidna;;
+	
+
+				

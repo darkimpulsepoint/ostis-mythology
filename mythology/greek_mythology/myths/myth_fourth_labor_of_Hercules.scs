@@ -1,0 +1,56 @@
+myth_fourth_labor_of_Hercules
+		<-concept_myth;
+		<-concept_labors_of_Hercules;
+        => nrel_main_idtf: 
+            [Четвертый подвиг Геракла] (* <-lang_ru;; *);
+	    [The fourth labor of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Четвертый подвиг Геракла)] (* <-lang_ru;; *);
+				[Description of myth(The fourth labor of Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_fourth_labor_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_fourth_labor_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геракл сражается с Эриманфским вепрем)](*<-lang_ru;;*);
+		[Pic. (Hercules fighting the Erymanthian Boar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hercules_fighting_erymanthian_boar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);         
+=>nrel_place_of_events:
+	Greece;	
+
+=>nrel_character:
+	character_Hercules;
+	character_Eurystheus;
+	character_erymanthian_boar;
+	character_Koprey;
+	character_Iolaus;
+	character_Artemis;
+	
+=>nrel_text:
+	text_4_labor_of_Hercules;;
+	
+text_4_labor_of_Hercules	
+<- rrel_key_sc_element:...
+	(*     
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_fourth_labor_of_Hercules_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_fourth_labor_of_Hercules_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+
+=> nrel_main_idtf:
+                    [Текст мифа (Четвертый подвиг Геракла)] (* <-lang_ru;; *);
+				[Text of myth (Fourth labor of Hercules)](*<-lang_en;;*);;      			

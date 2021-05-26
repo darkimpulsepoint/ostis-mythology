@@ -1,0 +1,47 @@
+vedas_Samaveda
+=> nrel_main_idtf: 
+[Самаведа] 
+(* <- lang_ru;; *); 
+[Samaveda] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Самаведа)](*<-lang_ru;;*);
+[Description (Samaveda)](*<-lang_en;;*);; 
+*);
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/Samaveda_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/Samaveda_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*           
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Самаведа)](*<-lang_ru;;*);
+		[Pic. (Samaveda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/samaveda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+<-rrel_key_sc_element:...
+(*
+<-statement;;
+=> nrel_main_idtf:
+	 [Утверждение о Самаведе] (* <- lang_ru;; *);
+	 [The statement about Samaveda] (* <- lang_en;; *);;
+<= nrel_sc_text_translation:...
+			(*
+			-> rrel_example: 
+				[Самаведа содержит около 1900 стихов, 95% из которых были получены из Ригведы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Samaveda contains about 1900 verses, 95% of which were obtained from the Rig Veda.](*<- lang_en;;*);;
+			*);;
+		*);;            

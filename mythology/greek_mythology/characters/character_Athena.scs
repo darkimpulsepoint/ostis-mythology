@@ -1,0 +1,36 @@
+character_Athena
+        => nrel_main_idtf: 
+            [Афина] (* <-lang_ru;; *);
+		  [Athena] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Афина)] (* <-lang_ru;; *);
+				[Description of character(Athena)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Athena_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Athena_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Афина)](*<-lang_ru;;*);
+		[Pic. (Athena)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Athena.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Zeus;
+		
+=>nrel_place_of_birth: Mount_Olympus;	
+
+=>nrel_attribute: bird_owl;;
+	
+
+				

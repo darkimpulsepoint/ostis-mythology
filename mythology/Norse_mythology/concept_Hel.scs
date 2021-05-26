@@ -1,0 +1,33 @@
+concept_Hel
+<-sc_node_not_relation;
+=> nrel_main_idtf: 
+[Хельхейм] 
+(* <- lang_ru;; *);
+[Hel] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Хельхейм)](*<-lang_ru;;*);
+[Description (Hel)](*<-lang_en;;*);; 
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hel_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hel_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хельхейм)](*<-lang_ru;;*);
+		[Pic. (Hel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

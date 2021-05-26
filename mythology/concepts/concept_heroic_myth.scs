@@ -1,0 +1,32 @@
+concept_heroic_myth
+<-sc_node_not_relation;
+<-concept_myth;
+        => nrel_main_idtf: 
+            [Героический миф] (* <-lang_ru;; *);
+	    [Heroic myth] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание (Героический миф)] (* <-lang_ru;; *);
+		    [Description (Heroic myth)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_heroic_myth_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/concept_heroic_myth_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Героический миф)](*<-lang_ru;;*);
+		[Pic. (Heroic myth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_heroic_myth.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+	
+
+				

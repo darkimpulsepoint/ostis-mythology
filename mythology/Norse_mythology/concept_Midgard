@@ -1,0 +1,33 @@
+concept_Midgard
+<-sc_node_not_relation;
+=> nrel_main_idtf: 
+[Мидгард] 
+(* <- lang_ru;; *);
+[Midgard] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Мидгард)](*<-lang_ru;;*);
+[Description (Midgard)](*<-lang_en;;*);; 
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Midgard_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Midgard_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*);
+
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мидгард)](*<-lang_ru;;*);
+		[Pic. (Midgard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Midgard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;

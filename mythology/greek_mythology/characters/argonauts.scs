@@ -1,0 +1,48 @@
+argonauts
+        => nrel_main_idtf: 
+            [Аргонавты] (* <-lang_ru;; *);
+		  [Argonauts] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание (Аргонавты)] (* <-lang_ru;; *);
+				[Description of (Argonauts)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/argonauts_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/argonauts_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аргонавты)](*<-lang_ru;;*);
+		[Pic. (Argonauts)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/argonauts.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=> nrel_main_member:
+	Jason;
+
+=>nrel_member:
+	Jason;
+	Castor;
+	Pollux;
+	character_Hercules;
+	Orpheus;
+	Peleus;
+	Pug;
+	Eurytus;
+	Gilas;
+	Telamon;
+
+=> nrel_goal:
+	golden_fleece;;
+	
+
+			

@@ -1,0 +1,41 @@
+myth_of_medusa
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Миф о Медузе Горгоне] (* <-lang_ru;; *);
+		  [Myth of Medusa] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа(Миф о Медузе Горгоне)] (* <-lang_ru;; *);
+				[Description of myth(Myth of Medusa)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_of_Medusa_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/myth_of_Medusa_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Персей с головой Медузы Горгоны)](*<-lang_ru;;*);
+		[Pic. (Perseus with the head of Medusa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Perseus_with_the_head_of_medusa.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+            
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_of_Medusa_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_of_Medusa_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);             
+
+=>nrel_character:
+	character_Medusa;
+	character_Athena;
+	character_Perseus;
+	character_Poseidon;;
+				

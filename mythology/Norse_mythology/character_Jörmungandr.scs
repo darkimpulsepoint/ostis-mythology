@@ -1,0 +1,31 @@
+character_Jormungandr
+        => nrel_main_idtf: 
+            [Ёрмунганд] (* <-lang_ru;; *);
+		  [Jörmungandr] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Ёрмунганд)] (* <-lang_ru;; *);
+				[Description of character(Jörmungandr)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Jörmungandr_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Jörmungandr_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ёрмунганд)](*<-lang_ru;;*);
+		[Pic. (Jörmungandr)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Jörmungandr.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: character_Loki;
+		
+=>nrel_mother: character_Angrboda;;

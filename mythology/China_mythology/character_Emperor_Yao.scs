@@ -1,0 +1,33 @@
+character_Emperor_Yao
+        => nrel_main_idtf: 
+            [Император Яо] (* <-lang_ru;; *);
+		  [Emperor Yao] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Император Яо)] (* <-lang_ru;; *);
+				[Description of character(Emperor Yao)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Emperor_Yao_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Emperor_Yao_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Император Яо)](*<-lang_ru;;*);
+		[Pic. (Emperor Yao)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Emperor_Yao.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_successor: character_Emperor_Shun;
+
+=>nrel_father: charcter_Emperor_Ku;
+		
+=>nrel_mother: character_Qingdu;;

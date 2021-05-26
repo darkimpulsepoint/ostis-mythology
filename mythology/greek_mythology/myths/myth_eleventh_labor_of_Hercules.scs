@@ -1,0 +1,55 @@
+myth_eleventh_labor_of_Hercules
+<-concept_labors_of_Hercules;
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Одиннадцатый подвиг Геракла] (* <-lang_ru;; *);
+	    [The eleventh labor of Hercules] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа (Одиннадцатый подвиг Геракла)] (* <-lang_ru;; *);
+				[Description of myth(The eleventh labor of Hercules)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_eleventh_labor_of_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			->rrel_example:"file://HTML/myth_eleventh_labor_of_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Яблоки Гесперид)](*<-lang_ru;;*);
+		[Pic. (Apples of Hesperides)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/apples_hesperides.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);          
+
+=>nrel_character:
+	character_Hercules;
+	character_Eurystheus;
+	Antaeus;
+	Koprey;
+	Nereus;
+	
+=>nrel_place_of_events:
+	Greece;		
+	
+=>nrel_text:
+	text_11_labor_of_Hercules;;
+	
+text_11_labor_of_Hercules			
+<- rrel_key_sc_element:...
+	(*     			
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_eleventh_labor_of_Hercules_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_eleventh_labor_of_Hercules_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);;
+*);
+=> nrel_main_idtf:
+                    [Текст мифа (Одинадцатый подвиг Геракла)] (* <-lang_ru;; *);
+				[Text of myth (Eleventh labor of Hercules)](*<-lang_en;;*);;   	
